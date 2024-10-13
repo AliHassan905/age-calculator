@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.back{
+    content: "";
+    background: rgba(0, 0, 0, 0.9) url(school-supplies-arrangement-table.jpg);
+    width: 100%;
+    height: 633px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken !important;
+}
+scetion.bg {
+
+    width: 24%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* z-index: 999; */
+  
+    text-align: center;
+    padding-top: 30px;
+    flex-direction: column;
+}
+input#dateshow {
+    width: 41%;
+    height: 53px;
+}
+button.click {
+    width: 22%;
+    height: 53px;
+}
+.overlay {
+    width: 84%;
+    background-color: white;
+    height: 230px;
+    position: relative;
+    top: 195px;
+    opacity: 0.4;
+}
+
+input#dateshow {
+    width: 41%;
+    z-index: 999;
+    position: relative;
+}
+button.click {
+    width: 64%;
+    height: 53px;
+    z-index: 99;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+input#calculateValue {
+    width: 64%;
+    z-index: 999;
+    background: green;
+    position: relative;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    outline: none;
+}
+div#root {
+    color: black;
+    z-index: 999;
+    margin-top: 18px;
+}
